@@ -1,1 +1,0 @@
-To compute the energy requirements and the wind effect for the drone arcs, the reader is kindly suggested to read the paper. In addition, drone transportation times are computed as euclidean distances divided by the drone ground speed. Truck transportation times are computed as manhhatan distances divided by truck speed, plus the truck service time. 
