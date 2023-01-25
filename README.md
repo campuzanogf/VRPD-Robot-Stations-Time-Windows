@@ -1,12 +1,11 @@
-# The Drone Assisted Vehicle Routing Problem with Robot Stations and Time Windows Instances
-A repository with instances for the VRPD-RS-TW
+# The Drone-Assisted Vehicle Routing Problem with Robot Stations and Time Windows Instances
 
-The VRPD with Robot Stations and Time Windows (or VRPD-RS-TW) is an extension of the Travelling Salesman Problem with Drone (TSP-D), where a fleet of trucks served each by a single drone should work in collaboration to serve customers with their corresponding parcels. In the VRPD-RS-TW trucks are allowed to visit robots stations that can dispatch autonomous robots to deliver parcels. In this regard, the VRPD-RS-TW is a transportation problem focused on the last-mile delivery operations, where autonomous vehicles, such as drones and robots are involved in the delivery process and together should minimize operational costs while meeting time windows constraints.
+A repository with instances for the VRPD-RS-TW. These instances are built for a real case study on the small and large rings of the city of Amsterdam, the Netherlands. To build the instances, we randomly generated three different instance types of 5, 10, 15, 50, 75, and 100 customers size for each type. For the small ring instance set the customers are distributed within the small ring. For the large instance set the customers are distributed within the districts Centrum, Noord, Oost, West, and Zuid. Here, the depot is placed in the south-west outskirts of Amsterdam since that area is well-connected to multiple highways entering the city center, as well as the districts in the suburbs. Trucks distances and travel times are based on city-car road distances and speed, respectively. Robot distances and travel times are based on pedestrian distances and speed, respectively. Done distances are based on the Harvesine formula to compute the great-circle distances by considering a mean earth radius value r = 6371 kilometers. Drone travel times are based on the drone speed.
 
-Comments within an instance's file start with /* and end with */ and have to be ignored by a parser.
+The VRPD with Robot Stations and Time Windows (VRPD-RS-TW) is a generalization of Vehicle Routing Problem with Time Windows (VRP-TW), where a fleet of trucks assisted each by a single drone should work in collaboration to serve customers with their corresponding parcels. In the VRPD-RS-TW trucks are allowed to visit robot stations that can dispatch autonomous robots to deliver parcels. In this regard, the VRPD-RS-TW is a transportation problem focused on last-mile delivery operations, where autonomous vehicles, such as drones and robots are involved in the delivery process and together should minimize logistic costs while meeting time windows constraints.
 
-Currently, this repository only contains a modified version of the single-center instances from: https://github.com/campuzanogf/Variable-Speeds-Asymmetric-Traveling-Salesman-Problem-Instances
+Comments within an instance's file start with /* and end with */ have to be ignored.
 
-This repository contains the instances used for the paper "The Drone Assisted VRP with Robot Stations and Time Windows". Campuzano Giovanni, Mes Martijn, & Lalla-Ruiz Eduardo. DOI:
+This repository contains the instances used for the paper "The Drone-Assisted VRP with Robot Stations and Time Windows". Campuzano Giovanni, Mes Martijn, & Lalla-Ruiz Eduardo. DOI:
 
-You are kindly requested to cite these papers if these instances are relevant to your research.
+You are kindly requested to cite this paper if these instances are relevant to your research.
