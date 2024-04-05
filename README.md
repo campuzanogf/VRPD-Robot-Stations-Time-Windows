@@ -6,6 +6,6 @@ The VRPD with Robot Stations and Time Windows (VRPD-RS-TW) is a generalization o
 
 Comments within an instance's file start with /* and end with */ have to be ignored.
 
-This repository contains the instances used for the paper "The Drone-Assisted VRP with Robot Stations and Time Windows". Campuzano Giovanni, Mes Martijn, & Lalla-Ruiz Eduardo. DOI:
+This repository contains the instances used for the paper "Optimizing autonomous multimodal last-mile delivery systems with time windows: analyzing trade-offs across drones, robots, and trucks". Campuzano Giovanni, Mes Martijn, & Lalla-Ruiz Eduardo. DOI:
 
 You are kindly requested to cite this paper if these instances are relevant to your research.
