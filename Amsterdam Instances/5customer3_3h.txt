@@ -1,0 +1,87 @@
+Number of Customers
+5
+Number of Robot stations
+1
+Number of Trucks
+1
+Number of Robots per station
+1
+Truck Capacity [kg]
+600
+Number of no-fly zones:
+1
+Nodes in no-fly zones:
+3 
+Drone speed [m/s]
+8.33
+Drone battery [J]
+600000
+Maximum robot driving time [s]
+3600
+Pacel weight [node] [kg]
+0	0
+1	3.88727
+2	1.82166
+3	3.87082
+4	0.191519
+5	1.89942
+6	0
+Node	latitud	longitud	t-start [s]	t-stop[s]	address
+Depot
+0	52.3405	4.84348	0	28800		Pilotenstraat 26, Amsterdam						
+Customers
+1	52.3699	4.93011	17361	28161		Blankenstraat 274, 1018SJ Amsterdam						
+2	52.372	4.91794	8222	19022		Kattenburgerstraat 104, 1018JE Amsterdam						
+3	52.3724	4.92312	7207	18007		Kleine Wittenburgerstraat 331, 1018LT Amsterdam						
+4	52.3719	4.9277	5812	16612		Oostenburgermiddenstraat 548, 1018LL Amsterdam						
+5	52.3704	4.92426	13506	24306		Oostenburgervoorstraat 79B, 1018MP Amsterdam						
+Robot station
+6	52.3738	4.89578	0	28800		Amsterdam Centrum						
+Truck driving time matrix [s]
+0 1367 1172 1327 1376 1363 1375 
+1335 0 230 251 174 345 623 
+1225 371 0 149 379 186 446 
+1400 448 177 0 456 223 572 
+1446 215 295 362 0 457 686 
+1334 376 378 443 384 0 759 
+1523 908 580 680 916 716 0 
+Drone flying time matrix [s]
+0 44 72 51 48 22 24 
+44 0 103 66 34 48 28 
+72 103 0 42 80 56 76 
+51 66 42 0 38 28 41 
+48 34 80 38 0 35 24 
+22 48 56 28 35 0 20 
+24 28 76 41 24 20 0 
+Robot driving time matrix [s]
+0 4641 4282 4559 4748 4577 3600 
+4641 0 733 613 336 415 1718 
+4282 733 0 299 629 458 1095 
+4559 613 299 0 509 338 1380 
+4770 336 629 509 0 247 1638 
+4609 415 458 338 247 0 1467 
+3600 1704 1095 1380 1606 1435 0 
+Truck driving distance matrix [km]
+0 12.58 11.99 12.92 12.43 13.08 11.47 
+8.8 0 1.62 1.51 0.71 1.92 3.88 
+12.98 2.54 0 0.94 2.38 1.09 2.21 
+9.26 2.85 1.09 0 2.69 1.05 2.83 
+9.35 1.04 2.35 2.06 0 2.46 4.14 
+8.79 2.39 3.15 2.25 2.23 0 4.95 
+9.36 5.41 2.81 3.29 5.26 3.45 0 
+Drone flying distance matrix [km]
+0 0.37 0.6 0.42 0.4 0.19 0.2 
+0.37 0 0.86 0.55 0.28 0.4 0.23 
+0.6 0.86 0 0.35 0.66 0.47 0.63 
+0.42 0.55 0.35 0 0.31 0.24 0.34 
+0.4 0.28 0.66 0.31 0 0.29 0.2 
+0.19 0.4 0.47 0.24 0.29 0 0.17 
+0.2 0.23 0.63 0.34 0.2 0.17 0 
+Robot driving distance matrix [km]
+0 7.74 7.14 7.6 7.91 7.63 6 
+7.74 0 1.22 1.02 0.56 0.69 2.86 
+7.14 1.22 0 0.5 1.05 0.76 1.83 
+7.6 1.02 0.5 0 0.85 0.56 2.3 
+7.95 0.56 1.05 0.85 0 0.41 2.73 
+7.68 0.69 0.76 0.56 0.41 0 2.44 
+6 2.84 1.83 2.3 2.68 2.39 0 
